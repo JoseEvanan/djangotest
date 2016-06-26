@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arduino</title>
+</head>
+<body>
+    Esto es el index del proyecto
+    <br>
+    {%for dat in data%}
+    <label>---</label>
+    <br>
+    <label>{{dat.value}}</label>
+    <br>
+    <label>{{dat.date}}</label>
+    <br>
+    {%endfor%}
+</body>
+</html>

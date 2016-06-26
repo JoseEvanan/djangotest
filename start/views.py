@@ -8,3 +8,6 @@ def save(request):
     dat = data(value=value)
     dat.save()
     return render(request,"start/save.html")
+
+def show(request):
+    return render(request,"start/show.html")
